@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 0.3px;
+    background-image: url(../../img/fondo.jpg);
+}
+
+.contenedor{
+    position: relative;
+    border: solid#a07566 8px;
+    border-radius: 40px;
+    height: 500px;
+    width: 380px;
+    background-color: #6c3049;
+    box-shadow: 0 19px 30px rgba(0, 0, 0, 0, 0.6),
+    0 15px 12px rgba(0, 0, 0, 0, 0.6);
+    padding: 3%;
+    color:#d9e0cc;
+    
+}
+
+.section1{
+    position: absolute;
+    top: 30%;
+    
+}
+
+.section2{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+.section3{
+    position: absolute;
+    top: 62%;
+    left: 40%;
+}
+
+.section4{
+    position: absolute;
+    top: 70%;
+    
+}
+
+#n1,#n2,#n3,#n4,#examen{
+    padding: 1%;
+}
+
+input{
+    width: 10%;
+    background-color:#a07566c8;
+    color: #d9e0cc;
+    font-weight: bold;
+}
+
+button{
+    background-color:#f0ece1;
+    border-radius: 5px;
+    border: solid #b9c59d 2px;
+    color: #6c3049;
+    font-weight: bold;
+    height: 28px;
+}
+
+button:hover{
+    background-color:#6c3049;
+    color:#f0ece1;
+}
+p{
+    font-size: 1.5vw;
+}
